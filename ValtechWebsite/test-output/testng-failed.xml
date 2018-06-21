@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="TestCases.HomePageTestCases$HomePageTest">
+        <methods>
+          <include name="verifyClickOnServicesLinkTest"/>
+          <include name="setUp"/>
+          <include name="verifyHomePageTitleTest"/>
+          <include name="Close"/>
+          <include name="verifyClickOnContactLinkTest"/>
+          <include name="verifyClickOnAboutLinkTest"/>
+          <include name="verifyClickOnWorkLinkTest"/>
+        </methods>
+      </class> <!-- TestCases.HomePageTestCases$HomePageTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
